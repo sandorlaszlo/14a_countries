@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "14a_countries",
+    "dateExported": "2023-11-24T12:21:41.979Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ca216a48-6a01-4b2d-9333-d0973bc6500e",
+            "colId": "142ef6c9-6c6f-40ca-b1c4-a556883f5c37",
+            "containerId": "",
+            "name": "Read all",
+            "url": "http://127.0.0.1:8000/api/country",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-24T11:49:34.680Z",
+            "modified": "2023-11-24T11:50:19.794Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "71f09ad2-7cd5-4c50-b858-35820fbac721",
+            "colId": "142ef6c9-6c6f-40ca-b1c4-a556883f5c37",
+            "containerId": "",
+            "name": "Read",
+            "url": "http://127.0.0.1:8000/api/country/2",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-11-24T12:07:25.962Z",
+            "modified": "2023-11-24T12:07:54.652Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6cbd4d99-a73b-479b-8a8e-2951054251ff",
+            "colId": "142ef6c9-6c6f-40ca-b1c4-a556883f5c37",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://127.0.0.1:8000/api/country/3",
+            "method": "DELETE",
+            "sortNum": 16250,
+            "created": "2023-11-24T12:16:05.476Z",
+            "modified": "2023-11-24T12:17:14.192Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dcb80e46-c07d-4125-8b1e-ad95bb59ca3d",
+            "colId": "142ef6c9-6c6f-40ca-b1c4-a556883f5c37",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://127.0.0.1:8000/api/country/20",
+            "method": "PUT",
+            "sortNum": 17500,
+            "created": "2023-11-24T12:10:26.242Z",
+            "modified": "2023-11-24T12:14:20.738Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Germany\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5a35a6f4-ef0e-405f-9092-0655df967485",
+            "colId": "142ef6c9-6c6f-40ca-b1c4-a556883f5c37",
+            "containerId": "",
+            "name": "Create",
+            "url": "http://127.0.0.1:8000/api/country",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-24T11:53:49.565Z",
+            "modified": "2023-11-24T12:21:07.150Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Uruguay\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
